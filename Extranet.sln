@@ -1,0 +1,75 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extranet.Interfaces", "Extranet.Interfaces\Extranet.Interfaces.csproj", "{1AEC808F-1B1F-4D24-A729-7FF1C6D2E782}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extranet.web", "ExtranetWeb\Extranet.web.csproj", "{D54CBEF6-F19F-439C-9462-D4C4F97404CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extranet.objects", "Extranet.objects\Extranet.objects.csproj", "{FBFFCF97-8D71-4E8D-AE3B-9D98EF934D2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extranet.data", "Extranet.data\Extranet.data.csproj", "{402984DB-C2D1-4BBD-8D3D-7AA910D65C1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extranet.business", "Extranet.business\Extranet.business.csproj", "{8C4EAC3F-CD8C-4E83-BB81-B2C8AE72F622}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQL", "SQL", "{8ADA54F1-DD48-4108-B59F-ACC377226E71}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://clx-desarrollo:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Extranet.Interfaces\\Extranet.Interfaces.csproj
+		SccProjectName1 = Extranet.Interfaces
+		SccLocalPath1 = Extranet.Interfaces
+		SccProjectUniqueName2 = ExtranetWeb\\Extranet.web.csproj
+		SccProjectName2 = ExtranetWeb
+		SccLocalPath2 = ExtranetWeb
+		SccProjectUniqueName3 = Extranet.objects\\Extranet.objects.csproj
+		SccProjectTopLevelParentUniqueName3 = Extranet.sln
+		SccProjectName3 = Extranet.objects
+		SccLocalPath3 = Extranet.objects
+		SccProjectUniqueName4 = Extranet.data\\Extranet.data.csproj
+		SccProjectTopLevelParentUniqueName4 = Extranet.sln
+		SccProjectName4 = Extranet.data
+		SccLocalPath4 = Extranet.data
+		SccProjectUniqueName5 = Extranet.business\\Extranet.business.csproj
+		SccProjectTopLevelParentUniqueName5 = Extranet.sln
+		SccProjectName5 = Extranet.business
+		SccLocalPath5 = Extranet.business
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1AEC808F-1B1F-4D24-A729-7FF1C6D2E782}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AEC808F-1B1F-4D24-A729-7FF1C6D2E782}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AEC808F-1B1F-4D24-A729-7FF1C6D2E782}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AEC808F-1B1F-4D24-A729-7FF1C6D2E782}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D54CBEF6-F19F-439C-9462-D4C4F97404CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D54CBEF6-F19F-439C-9462-D4C4F97404CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D54CBEF6-F19F-439C-9462-D4C4F97404CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D54CBEF6-F19F-439C-9462-D4C4F97404CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBFFCF97-8D71-4E8D-AE3B-9D98EF934D2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBFFCF97-8D71-4E8D-AE3B-9D98EF934D2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBFFCF97-8D71-4E8D-AE3B-9D98EF934D2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBFFCF97-8D71-4E8D-AE3B-9D98EF934D2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{402984DB-C2D1-4BBD-8D3D-7AA910D65C1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{402984DB-C2D1-4BBD-8D3D-7AA910D65C1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{402984DB-C2D1-4BBD-8D3D-7AA910D65C1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{402984DB-C2D1-4BBD-8D3D-7AA910D65C1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C4EAC3F-CD8C-4E83-BB81-B2C8AE72F622}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C4EAC3F-CD8C-4E83-BB81-B2C8AE72F622}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C4EAC3F-CD8C-4E83-BB81-B2C8AE72F622}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C4EAC3F-CD8C-4E83-BB81-B2C8AE72F622}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8C4EAC3F-CD8C-4E83-BB81-B2C8AE72F622} = {8ADA54F1-DD48-4108-B59F-ACC377226E71}
+		{402984DB-C2D1-4BBD-8D3D-7AA910D65C1A} = {8ADA54F1-DD48-4108-B59F-ACC377226E71}
+		{FBFFCF97-8D71-4E8D-AE3B-9D98EF934D2C} = {8ADA54F1-DD48-4108-B59F-ACC377226E71}
+	EndGlobalSection
+EndGlobal
